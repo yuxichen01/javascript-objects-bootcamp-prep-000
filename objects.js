@@ -1,2 +1,4 @@
 var playlist = {galantis:'hunter'};
-playlist.artistname = 'songTitle'
+function updatePlaylist(playlist, artistName,songTitle) {
+  return object.assign({},{artistName: 'songTitle'})
+}
