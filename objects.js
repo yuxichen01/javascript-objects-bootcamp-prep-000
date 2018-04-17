@@ -1,4 +1,4 @@
-var ogList = {galantis:'hunter'};
+var playlist = {galantis:'hunter'};
 function updatePlaylist(playlist, artistName,songTitle) {
   playlist[artistName] = songTitle
   return playlist
