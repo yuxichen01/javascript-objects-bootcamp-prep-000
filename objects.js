@@ -4,5 +4,6 @@ function updatePlaylist(plist, artistName,songTitle) {
   return plist
 }
 function removeFromPlaylist(plist, artistName) {
- return (delete plist.artistName)
+ delete plist.artistName
+ return plist
 }
