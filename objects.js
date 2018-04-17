@@ -1,8 +1,8 @@
 var playlist = {galantis:'hunter'};
 function updatePlaylist(plist, artistName,songTitle) {
-  playlist[artistName] = songTitle
-  return playlist
+  plist[artistName] = songTitle
+  return plist
 }
 function removeFromPlaylist(plist, artistName) {
- return (delete playlist.artistName)
+ return (delete plist.artistName)
 }
